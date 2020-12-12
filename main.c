@@ -132,7 +132,7 @@ int main(){
             printf("\n");
 
             int resultado = resolveArvore(expressao);
-            fprintf(fout, "%s = %d\n", entrada, resultado);
+            fprintf(fout, "%d\n", resultado);
             printf("Resultado: %d\n", resultado);
 
             free(entrada);
